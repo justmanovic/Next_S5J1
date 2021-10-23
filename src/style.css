@@ -1,0 +1,21 @@
+body {
+  margin: 1rem;
+}
+
+.ui.card:first-child {
+  margin-top: 1em;
+}
+
+.ui.card:last-child {
+  margin-bottom: 1em;
+}
+
+.cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ui.card {
+  width: 320px;
+}
